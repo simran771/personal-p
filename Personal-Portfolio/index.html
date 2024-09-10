@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <!-- <li><a href="#blog">Blog</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="hero-text">
+            <h3>Hello i'm </h3>
+            <h1>Simran Chaurasiya</h1>
+            <h4>Student - Web Developer - Database Administrator</h4>
+            <a href="#" class="btn">My Works</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/s.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5>I Am A Student <span>Web Designer and Database Administrator</span></h5>
+            <p>My name is Simran Chaurasiya . I am from Baitalpur . I have done 3 year's of diploma in stream of Electrical Engineering in 2022 From BTEUP Board .Along with my diploma , i have completed PHP With MySQL Course and Python Programming from UDEMY .Now i am pursuing B.Tech from Bansal Institute of Engineering and Technology which is affiliated to Dr. A.P.J. Abdul Kalam Technical University , Uttar Pradesh Lucknow.I am very excited to learn every new technologies .
+			I have also intermediate level skills which is C programming Language , PHP , Python , DBMS , Operating System and Data Structure also.<br>
+            A database administrator is the information technician who directs and performs all activities related to maintaining a successful database environment.</p>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="text-center">
+            <h2>My Services</h2>
+            <h4>We Work With You , Not For You</h4>
+        </div>
+
+        <div class="service-item">
+            <div class="service-box">
+                <i class='bx bxl-php' style='color:#0af2fb' ></i>
+                <h3>Web Design</h3>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user  <span style="color: var(--other-color);"> experience.User experience is central to the web designing process. Websites have an array of elements presented in ways that make them easy to navigate. Web designing essentially involves working on every attribute of the website that people interact with, so that the website is simple and efficient, allows users to quickly find the information they need, and looks visually pleasing. All these factors, when combined, decide how well the website is designed.</span>
+                </p>
+                <a href="#" onclick="readmore(event)" class="s-btnn">Read More...</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-code' style='color:#0af2fb'  ></i>
+                <h3>UI / UX Design</h3>
+                <p>The term UI/UX stands for user interface/user experience design and refers to the practice of designing digital products with a user-first approach. <span style="color: var(--other-color);">In other words, the point of UI/UX design is to create a product that will be both visually appealing and highly pleasant to interact with.A common misconception is that UI and UX come down to the same thing and that they are just one discipline, but that is not entirely true. They are separate disciplines that focus on different aspects of the user’s journey with a digital product.However, they overlap in many ways and are so closely connected that they’ve largely merged into one profession. Let’s take a look at the main differences between UX and UI before moving on to discuss what the UI/UX design process involves and why it matters to you.</span></p>
+                <a href="#" onclick="readmore(event)" class="s-btnn">Read More...</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxl-mongodb' style='color:#0af2fb'></i>
+                <h3>MongoDB</h3>
+                <p>MongoDB is an open source NoSQL database management program. NoSQL (Not only SQL) is used as an alternative to traditional relational databases.<span style="color: var(--other-color);">NoSQL databases are quite useful for working with large sets of distributed data. MongoDB is a tool that can manage document-oriented information, store or retrieve information.MongoDB is used for high-volume data storage, helping organizations store large amounts of data while still performing rapidly. Organizations also use MongoDB for its ad-hoc queries, indexing, load balancing, aggregation, server-side JavaScript execution and other features.</span></p>
+                <a href="#" onclick="readmore(event)" class="s-btnn">Read More...</a>
+            </div>
+            
+        </div>  
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="left-contact">
+
+            <div class="in">
+                <i class='bx bxl-javascript' style='color:#0af2fb' ></i>
+                <h4>JavaScript</h4>
+            </div>
+
+            <div class="in">
+                <i class='bx bxl-php' style='color:#0af2fb' ></i>
+                <h4>PHP</h4>
+            </div>
+
+            <div class="in">
+                <i class='bx bxl-python' style='color:#0af2fb' ></i>
+                <h4>Python</h4>
+           
+          </div>
+
+        </div>
+
+            <div class="right-contact">
+                <h2>Profiles</h2>
+                <a href="#">Database Administrator</a>
+                <p>Design, develop, and maintain relational databases, ensuring data accuracy, integrity, and performance.<br>
+				Collaborate with software developers to integrate database functionality into applications.<br>
+				Perform database tuning, optimization, and monitoring to ensure high availability and performance.<br>
+				Develop and maintain database schemas, tables, views, and stored procedures.<br>
+				Implement data security measures and ensure compliance with data protection regulations.<br>
+				Troubleshoot and resolve database-related issues.<br>
+				Create and maintain documentation of database processes and configurations.<br>
+				Stay up-to-date with emerging database technologies and trends.</p>
+            </div>
+    </section>
+
+
+    <section class="end-section">
+        <h3>Simran Chaurasiya</h3>
+        <p>For PHP , Python , MySQL and coding tutorials - <br>please click on the  link below to get my activity.</p>
+        <div class="end-icons">
+            <a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-gmail'></i></a>
+        </div>
+    </section>
+    <a href="#" class="scroll-bttn"><i class='bx bx-chevron-up'></i></a>  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
